@@ -1,28 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <title>Ana-Louise Trinidad</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <link href="./assets/styles.css" rel="stylesheet" />
-      </head>
-
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Ana-Louise Trinidad</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="./assets/styles.css" rel="stylesheet" />
+  </head>
+  
     <body>
-
-      <section class="top-section">
-        <div>
-        </div>
-      </section>
-
-<!-- Breadcrumb -->
-<nav class="breadcrumb is-small" aria-label="breadcrumbs">
-<ul>
-  <li class="is-active"><a href="#" aria-current="page">Home</a></li>
-</ul>
-</nav>
 
         <!-- Navigation-->
         <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
@@ -40,6 +28,9 @@
           
             <div id="navbarBasicExample" class="navbar-menu">
               <div class="navbar-end">
+                <a class="navbar-item">
+                  About
+                </a>
           
                 <div class="navbar-item has-dropdown is-hoverable">
                   <a class="navbar-link">
@@ -91,35 +82,99 @@
             </div>
           </nav>
 
-                <!-- Hero Section-->
-                <section class="hero has-background-white-ter is-fullheight">
-                  
-                    <!-- Hero content: will be in the middle -->
-                    <div class="hero-body">
-                      <div class="container has-text-centered">
-                        <p class="title">
-                          Ana-Louise Trinidad
-                        </p>
-                        <p class="subtitle">
-                          User Experience Designer & Front-End Developer
-                        </p>
-                        <p>I am a proud career changer with 5 years of experience in Healthcare and 4 years of experience in nonprofits.</p>
-                        <p class="mr-0 pt-5">
-                        <a href="./social-impact-ux-portfolio.html"><button class="button is-medium is-warning">Social Impact UX Portfolio</button></a>
-                        <a href="./gaming-ux-portfolio.html" class="button is-medium is-primary">Gaming UX Portfolio</a>  
-                        </p>
-                    </div>
-                    </div>
-                  
-                  </section>
+<!-- Contact Form Section -->
+
+    <div class="field">
+        <label class="label">Name</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Text input">
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Username</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input is-success" type="text" placeholder="Text input" value="bulma">
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-check"></i>
+          </span>
+        </div>
+        <p class="help is-success">This username is available</p>
+      </div>
+      
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+          <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-exclamation-triangle"></i>
+          </span>
+        </div>
+        <p class="help is-danger">This email is invalid</p>
+      </div>
+      
+      <div class="field">
+        <label class="label">Subject</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option>Select dropdown</option>
+              <option>With options</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Message</label>
+        <div class="control">
+          <textarea class="textarea" placeholder="Textarea"></textarea>
+        </div>
+      </div>
+      
+      <div class="field">
+        <div class="control">
+          <label class="checkbox">
+            <input type="checkbox">
+            I agree to the <a href="#">terms and conditions</a>
+          </label>
+        </div>
+      </div>
+      
+      <div class="field">
+        <div class="control">
+          <label class="radio">
+            <input type="radio" name="question">
+            Yes
+          </label>
+          <label class="radio">
+            <input type="radio" name="question">
+            No
+          </label>
+        </div>
+      </div>
+      
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link">Submit</button>
+        </div>
+        <div class="control">
+          <button class="button is-link is-light">Cancel</button>
+        </div>
+      </div>
 
 <!-- Footer-->
 <footer class="footer">
     <div class="columns has-text-centered">
-      <div class="column"></div>
       <div class="column">
-        <p class="menu-label"><a href="./index.html">
-          About</a>
+        <p class="menu-label">
+          About
         </p>
         </div>
       <div class="column">
@@ -128,14 +183,14 @@
       My Portfolios
     </p>
     <ul class="menu-list">
-      <li><a href="./social-impact-ux-portfolio.html">Social Impact UX Portfolio</a></li>
-      <li><a href="./gaming-ux-portfolio.html">Gaming UX Portfolio</a></li>
-      <li><a href="./illustrations.html">Illustrations</a></li>
-      <li><a href="./volunteer-contributions.html">Volunteer Contributions</a></li>
+      <li><a>Social Impact UX Portfolio</a></li>
+      <li><a>Gaming UX Portfolio</a></li>
+      <li><a>Illustrations</a></li>
+      <li><a>Volunteer Contributions</a></li>
     </ul>
       </div>
             </a>
-            <div class="column"></div>
+
         </div>
       </div>
     </div>
@@ -146,17 +201,17 @@
       Contact Me
     </p>
     <div class="has-text-centered">
-      <a href="https://www.linkedin.com/in/ana-louise-trinidad/" target="_blank" class="button is-white is-medium">
+      <a class="button is-white is-medium">
           <span class="icon">
             <i class="fab fa-linkedin fa-lg"></i>
           </span>
       </a>
-      <a href="https://github.com/ana3nity" target="_blank" class="button is-white is-medium">
+      <a class="button is-white is-medium">
           <span class="icon">
             <i class="fab fa-github fa-lg"></i>
           </span>
       </a>
-      <a href="./contact-me.html" class="button is-white is-medium">
+      <a href="mailto:" class="button is-white is-medium">
           <span class="icon">
             <i class="fa-solid fa-envelope fa-lg"></i>
           </span>
