@@ -1,4 +1,4 @@
-Hello! I'm Ana!
+Hello! I'm Ana 🌟
 
 Here is the repo to my UX Portfolio website.
 
