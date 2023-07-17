@@ -12,89 +12,90 @@
   
 <body>
 
-  <section class="top-section">
-    <div>
-    </div>
-  </section>
-
-<!-- Breadcrumb -->
-<nav class="breadcrumb is-small" aria-label="breadcrumbs">
-<ul>
-<li><a href="./index.html">Home</a></li>
-<li class="is-active"><a href="#" aria-current="page">Volunteer Contributions</a></li>
-</ul>
-</nav>
-
-            <!-- Navigation-->
-        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-              <a class="navbar-item" href="./index.html">
-                <img src="./assets/media/logo-dark.png">&nbsp&nbsp<strong>Ana-Louise Trinidad</strong>
+         <!-- Navigation-->
+         <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="./index.html">
+              <img src="./assets/media/logo-dark.png">&nbsp&nbsp<strong>Ana-Louise Trinidad</strong>
+            </a>
+        
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+        
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+              <a href="./index.html" class="navbar-item">
+                Home
               </a>
-          
-              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-              </a>
-            </div>
-          
-            <div id="navbarBasicExample" class="navbar-menu">
-              <div class="navbar-end">
-                <a href="./index.html" class="navbar-item">
-                  Home
+
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  My Portfolios
                 </a>
-          
-                <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link">
-                    My Portfolios
+        
+                <div class="navbar-dropdown">
+                  <a href="./social-impact-ux-portfolio.html" class="navbar-item">
+                    Social Impact UX Portfolio
                   </a>
-          
-                  <div class="navbar-dropdown">
-                    <a href="./social-impact-ux-portfolio.html" class="navbar-item">
-                      Social Impact UX Portfolio
-                    </a>
-                    <a href="./gaming-ux-portfolio.html" class="navbar-item">
-                      Gaming UX Portfolio
-                    </a>
-                    <hr class="navbar-divider">
-                    <a href="./illustrations.html" class="navbar-item">
-                      Illustrations
-                    </a>
-                    <a href="./volunteer-contributions.html" class="navbar-item">
-                      Volunteer Contributions
-                    </a>
-                  </div>
-                </div>
-              </div>
-          
-              <div class="navbar-end">
-                <div class="navbar-item">
-                  <div class="buttons">
-                    <a href="./resume.html" class="button is-warning">
-                      <strong>Resume</strong>
-                    </a>
-                    <a href="https://www.linkedin.com/in/ana-louise-trinidad/" target="_blank" class="button is-white is-medium">
-                        <span class="icon">
-                          <i class="fab fa-linkedin fa-lg"></i>
-                        </span>
-                    </a>
-                    <a href="https://github.com/ana3nity" target="_blank" class="button is-white is-medium">
-                        <span class="icon">
-                          <i class="fab fa-github fa-lg"></i>
-                        </span>
-                    </a>
-                    <a href="./contact-me.html" class="button is-white is-medium">
-                        <span class="icon">
-                          <i class="fa-solid fa-envelope fa-lg"></i>
-                        </span>
-                    </a>
-                  </div>
+                  
+                  <a href="./gaming-ux-portfolio.html" class="navbar-item">
+                    Gaming UX Portfolio
+                  </a>
+                  <hr class="navbar-divider">
+                  <a href="./illustrations.html" class="navbar-item">
+                    Illustrations
+                  </a>
+                  <a href="./volunteer-contributions.html" class="navbar-item">
+                    Volunteer Contributions
+                  </a>
                 </div>
               </div>
             </div>
-          </nav>
+        
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a href="./resume.html" class="button is-warning">
+                    <strong>Resume</strong>
+                  </a>
+                  <a href="https://www.linkedin.com/in/ana-louise-trinidad/" target="_blank" class="button is-white is-medium">
+                      <span class="icon">
+                        <i class="fab fa-linkedin fa-lg"></i>
+                      </span>
+                  </a>
+                  <a href="https://github.com/ana3nity" target="_blank" class="button is-white is-medium">
+                      <span class="icon">
+                        <i class="fab fa-github fa-lg"></i>
+                      </span>
+                  </a>
+                  <a href="./contact-me.html" class="button is-white is-medium">
+                      <span class="icon">
+                        <i class="fa-solid fa-envelope fa-lg"></i>
+                      </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
           
+          <section class="top-section">
+            <div>
+            </div>
+          </section>
+        
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+        <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li class="is-active"><a href="#" aria-current="page">Volunteer Contributions</a></li>
+        </ul>
+        </nav>
+
                 <!-- Hero Section-->
 <main>
                 <section class="hero my-6">
@@ -210,5 +211,31 @@
 </div>
 <!-- Copyright Section-->
 <div class="container is-white has-text-centered"><small>Copyright &copy; Ana-Louise 2023</small></div>
+
+<!-- JS Content -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+
+// Get all "navbar-burger" elements
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Add a click event on each of them
+$navbarBurgers.forEach( el => {
+  el.addEventListener('click', () => {
+
+    // Get the target from the "data-target" attribute
+    const target = el.dataset.target;
+    const $target = document.getElementById(target);
+
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+    el.classList.toggle('is-active');
+    $target.classList.toggle('is-active');
+
+  });
+});
+
+});
+</script>  
+
 </body>
 </html>

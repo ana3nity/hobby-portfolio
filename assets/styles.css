@@ -1,6 +1,6 @@
 main {
   margin: 0 auto;
-  width: 60vw;
+  max-width: 75vw;
 }
 
 .breadcrumb {
@@ -1893,6 +1893,9 @@ fieldset[disabled] .button {
 }
 
 @media screen and (max-width: 768px) {
+  main {
+    width: 90vw;
+  }
   .button.is-responsive.is-small {
     font-size: 0.5625rem;
   }
@@ -1909,6 +1912,9 @@ fieldset[disabled] .button {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1023px) {
+  main {
+    width: 90vw;
+  }
   .button.is-responsive.is-small {
     font-size: 0.65625rem;
   }
