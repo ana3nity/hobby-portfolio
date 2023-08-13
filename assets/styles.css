@@ -10935,6 +10935,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0 auto;
+  max-width: 75vw;
 }
 
 .hero .navbar {
