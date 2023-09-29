@@ -486,6 +486,12 @@ table th {
   }
 }
 
+.headline {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
 /* Bulma Elements */
 .box {
   background-color: white;
@@ -1925,6 +1931,9 @@ fieldset[disabled] .button {
   .button.is-responsive.is-large {
     font-size: 1rem;
   }
+  .headline {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1023px) {
@@ -1943,6 +1952,9 @@ fieldset[disabled] .button {
   }
   .button.is-responsive.is-large {
     font-size: 1.25rem;
+  }
+  .headline {
+    width: 100%;
   }
 }
 
