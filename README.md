@@ -1,4 +1,4 @@
-Hello! I'm Ana 🌟 A User Experience Designer and Front-End Designer.
+Hello! I'm Ana 🌟 A User Experience Designer and Front-End Developer.
 
 Here is the repo to my UX Portfolio website. Coded using CSS Framework: Bulma.
 
