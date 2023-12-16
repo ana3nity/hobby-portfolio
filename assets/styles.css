@@ -448,8 +448,14 @@ hr {
 }
 
 img {
-  height: auto;
   max-width: 100%;
+  height: auto;
+}
+
+.columns img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
 }
 
 input[type="checkbox"],
