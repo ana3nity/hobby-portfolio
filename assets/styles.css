@@ -458,6 +458,12 @@ img {
   height: auto;
 }
 
+.card img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
 input[type="checkbox"],
 input[type="radio"] {
   vertical-align: baseline;
@@ -2009,31 +2015,31 @@ fieldset[disabled] .button {
 
 @media screen and (min-width: 1024px) {
   .container {
-    max-width: 960px;
+    max-width: 90vw;
   }
 }
 
 @media screen and (max-width: 1215px) {
   .container.is-widescreen:not(.is-max-desktop) {
-    max-width: 1152px;
+    max-width: 90vw;
   }
 }
 
 @media screen and (max-width: 1407px) {
   .container.is-fullhd:not(.is-max-desktop):not(.is-max-widescreen) {
-    max-width: 1344px;
+    max-width: 90vw;
   }
 }
 
 @media screen and (min-width: 1216px) {
   .container:not(.is-max-desktop) {
-    max-width: 1152px;
+    max-width: 90vw;
   }
 }
 
 @media screen and (min-width: 1408px) {
   .container:not(.is-max-desktop):not(.is-max-widescreen) {
-    max-width: 1344px;
+    max-width: 90vw;
   }
 }
 
@@ -4747,7 +4753,8 @@ fieldset[disabled] .select select:hover {
   border-radius: 0.25rem;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   color: #4a4a4a;
-  max-width: 100%;
+  width: 100%;
+  max-width: 500px;
   max-height: max-content;
   position: relative;
 }
